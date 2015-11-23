@@ -1,6 +1,7 @@
 {
   "name": "ember-qunit",
-  "version": "0.4.15",
+  "version": "0.4.15.51e91e44",
+  "main": "ember-qunit.js",
   "authors": [
     "Stefan Penner",
     "Ryan Florence",
@@ -8,25 +9,7 @@
     "Dan Gebhardt"
   ],
   "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "tests"
-  ],
-  "dependencies": {
-    "ember": "^1.10.0",
-    "ember-test-helpers": "hjdivad/ember-test-helpers#integration-legacy"
-  },
-  "devDependencies": {
-    "qunit": "^1.17.1",
-    "loader": "stefanpenner/loader.js#1.0.1",
-    "ember-cli-shims": "stefanpenner/ember-cli-shims#0.0.3",
-    "ember-cli-test-loader": "rwjblue/ember-cli-test-loader#0.0.4",
-    "jquery": "~2.1.1",
-    "ember-data": "~1.0.0-beta.10"
-  },
-  "resolutions": {
-    "ember-data": "~1.0.0-beta.10"
-  }
+  "ignore": [ ],
+  "dependencies": { },
+  "devDependencies": { }
 }
